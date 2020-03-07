@@ -19,6 +19,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textView.isEditable = false
         titleLabel.text = "Kanye West Lyrics"
         imageView.image = UIImage.init(named: "kanye")
         getLyric()
